@@ -19,7 +19,7 @@
         <dependency>
             <groupId>com.hazelcast</groupId>
             <artifactId>hazelcast</artifactId>
-            <version>5.3.2</version>
+            <version>5.5.0</version>
         </dependency>
         <!-- Hazelcast SQL -->
         <dependency>
@@ -27,11 +27,20 @@
             <artifactId>hazelcast-sql</artifactId>
             <version>5.3.2</version>
         </dependency>
-        <!-- Hazelcast JDBC -->
         <dependency>
-            <groupId>com.hazelcast</groupId>
-            <artifactId>hazelcast-jdbc</artifactId>
-            <version>5.3.2</version>
+            <groupId>com.hazelcast.jet</groupId>
+            <artifactId>hazelcast-jet-cdc-debezium</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+        <dependency>
+            <groupId>io.debezium</groupId>
+            <artifactId>debezium-connector-sqlserver</artifactId>
+            <version>2.3.0.Final</version>
+        </dependency>
+        <dependency>
+            <groupId>com.oracle.database.jdbc</groupId>
+            <artifactId>ojdbc8</artifactId>
+            <version>23.8.0.25.04</version>
         </dependency>
     </dependencies>
 
